@@ -13,12 +13,18 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Sixtyfour+Convergence&display=swap"
+      rel="stylesheet"
+    />
     <title>Final Project</title>
   </head>
   <body>
     <header>
       <div class="container-fluid">
-        <div class="row">
+        <div class="row header_section_top">
           <div class="col"><h2>Logo</h2></div>
           <div class="col header_section_top">
             <ul>
@@ -39,6 +45,32 @@
               </li>
             </ul>
           </div>
+        </div>
+      </div>
+      <!-- Simulate a smartphone / tablet -->
+      <div class="container-fluid burger_menu">
+        <!-- Top Navigation Menu -->
+        <div class="topnav">
+          <a href="index.html" class="active">Logo</a>
+          <div id="myLinks">
+            <a href="index.html">Home</a>
+            <a href="index.html">Top Animes</a>
+            <a href="index.html">Latest News</a>
+            <a href="index.html">Coming Soon</a>
+            <a href="index.html">Sign-up</a>
+          </div>
+          <a href="javascript:void(0);" class="icon" onclick="burgerMenu()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+
+        <div style="padding-left: 16px">
+          <h3>Latest And Updated Animes To Watch</h3>
+          <p>
+            Always be updated for latest anime released or manga stories all
+            news and updates you've ever need about animes
+          </p>
+          <p>Join us and enjoy moments of twists , actions and entertainment</p>
         </div>
       </div>
     </header>
@@ -71,15 +103,15 @@
         </div>
       </div>
       <div class="row">
-        <div class="col centertext">
-          <h1>Top CLass Animes</h1>
+        <div class="web_banner centertext">
+          <h1 data-text="Top Class Animes"></h1>
         </div>
       </div>
     </div>
     <div class="container">
       <div class="row">
         <div class="col p-5 centertext">
-          <h1>Most Popular</h1>
+          <h1 class="toppadding">Most Popular</h1>
         </div>
       </div>
       <div class="row">
@@ -128,9 +160,9 @@
             <div class="numbertext">4 / 4</div>
             <a href="index.html" target="_blank">
               <img
-              src="data/NGE/neon_genesis_evangelion_banner.jpg"
-              style="width: 100%"
-              height="420rem"
+                src="data/NGE/neon_genesis_evangelion_banner.jpg"
+                style="width: 100%"
+                height="420rem"
               />
             </a>
             <div class="text">
@@ -390,7 +422,11 @@
             </p>
           </div>
           <div>
-            <img src="data/Oshinoko/Anime_OshinoKo.jpg" alt="oshinoko" />
+            <img
+              src="data/Oshinoko/Anime_OshinoKo.jpg"
+              alt="oshinoko"
+              width="100%"
+            />
             <h2>Oshinoko</h2>
             <p>
               Oshi no Ko is a captivating anime series that delves into the
@@ -497,38 +533,39 @@
         <div class="col-md-6 social_links lineheight">
           <div>
             <ul>
+              <sub>Also Follow Us On</sub>
               <li>
-                <a href="index.html"
+                <a href="index.html" class="linkedin"
                   ><i class="fa-brands fa-linkedin"></i> LinkedIn</a
                 >
-              </li>s
+              </li>
               <li>
-                <a href="index.html"
+                <a href="index.html" class="facebook"
                   ><i class="fa-brands fa-facebook"></i> Facebook</a
                 >
               </li>
               <li>
-                <a href="index.html"
+                <a href="index.html" class="twitter"
                   ><i class="fa-brands fa-x-twitter"></i> Twitter</a
                 >
               </li>
               <li>
-                <a href="index.html"
+                <a href="index.html" class="twitch"
                   ><i class="fa-brands fa-twitch"></i> Twitch</a
                 >
               </li>
               <li>
-                <a href="index.html"
+                <a href="index.html" class="pinterest"
                   ><i class="fa-brands fa-pinterest-p"></i> Pinterest</a
                 >
               </li>
               <li>
-                <a href="index.html"
+                <a href="index.html" class="instagram"
                   ><i class="fa-brands fa-instagram"></i> Instagram</a
                 >
               </li>
               <li>
-                <a href="index.html"
+                <a href="index.html" class="reddit"
                   ><i class="fa-brands fa-reddit-alien"></i> Reddit</a
                 >
               </li>
@@ -537,9 +574,9 @@
         </div>
       </div>
     </div>
-    <div class="container-fluid">
+    <div class="container-fluid text-uppercase centertext">
       <div class="row">
-        <div class="col">
+        <div class="col footer">
           alright copy reserved &copy; powered by quad squad
         </div>
       </div>

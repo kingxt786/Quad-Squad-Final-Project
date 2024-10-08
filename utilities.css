@@ -14,3 +14,34 @@ a {
 li {
   list-style: none;
 }
+.toppadding{
+  padding: 3rem;
+}
+.linkedin{
+  color: #0077B5;
+}
+.facebook{
+  color: #1877F2;
+}
+.twitter{
+  color: #1DA1F2;
+}
+.twitch{
+  color: #6441a5;
+  text-shadow: 2px 2px  white;
+}
+.pinterest {
+  color: 	#E60023;
+}
+.instagram {
+  background: linear-gradient(to right, #f9ce34, #ee2a7b ,#6228d7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.reddit{
+  background: linear-gradient(to right, #ff4500, #5f99cf ,#cee3f8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
