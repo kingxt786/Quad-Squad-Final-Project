@@ -1,0 +1,16 @@
+.lineheight {
+  line-height: 2;
+}
+.centertext {
+  text-align: center;
+}
+.container {
+  background-color: rgba(255, 255, 255, 0.058);
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+li {
+  list-style: none;
+}
